@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <nav class="navbar-center">
+        <div class="nav-left">
+          <ul class="links about">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+          <button type="button" class="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <div class="nav-center">
+          <img src="./img/logo-black.svg" alt="" />
+        </div>
+        <div class="nav-right">
+          <button class="btn-shopping about">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </button>
+          <span>1</span>
+        </div>
+      </nav>
+    </nav>
+    <div class="div-about">
+      <h1>Home / Product</h1>
+    </div>
+    <div class="main-product">
+      <form class="search-form">
+        <input type="text" placeholder="Search..." class="input-search" />
+        <h2>Company</h2>
+        <div class="companies"></div>
+        <form class="filter-price">
+          <input
+            type="range"
+            name=""
+            id=""
+            min="0"
+            max="80"
+            class="price-input"
+          />
+          <h3 class="price-text">Value:$40</h3>
+        </form>
+      </form>
+      <div class="product-container">
+        <div class="div-loading">
+          <h2>Loading...</h2>
+        </div>
+        <div class="single-feature">
+          <div class="featured-img">
+            <img src="./img/main-bcg.jpeg" alt="" class="img" />
+            <div class="icons">
+              <a href="product.html">
+                <i class="fa-solid fa-search"></i>
+              </a>
+              <button class="btn-shop" data-id="1">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <h3>hell</h3>
+          <h2>99.6</h2>
+        </div>
+        <div class="single-feature">
+          <div class="featured-img">
+            <img src="./img/main-bcg.jpeg" alt="" class="img" />
+            <div class="icons">
+              <a href="product.html">
+                <i class="fa-solid fa-search"></i>
+              </a>
+              <button class="btn-shop" data-id="1">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <h3>hell</h3>
+          <h2>99.6</h2>
+        </div>
+        <div class="single-feature">
+          <div class="featured-img">
+            <img src="./img/main-bcg.jpeg" alt="" class="img" />
+            <div class="icons">
+              <a href="product.html">
+                <i class="fa-solid fa-search"></i>
+              </a>
+              <button class="btn-shop" data-id="1">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <h3>hell</h3>
+          <h2>99.6</h2>
+        </div>
+      </div>
+    </div>
+    <div class="div-menu">
+      <div class="items">
+        <ul items-link>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-home fa-fw"> </i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-solid fa-couch fa-fw"></i> <span>Products</span></a
+            >
+          </li>
+          <li>
+            <a href="About.html">
+              <i class="fa-solid fa-book fa-fw"> </i> <span>About</span></a
+            >
+          </li>
+        </ul>
+        <button class="btn-close">
+          <i class="fa-solid fa-times"> </i>
+        </button>
+      </div>
+    </div>
+    <div class="shop-menu">
+      <aside class="shop-item">
+        <button class="shop-item-btn-close">
+          <i class="fa-solid fa-times"> </i>
+        </button>
+        <h3 class="header">Your bag</h3>
+        <div class="shop-item-items"></div>
+        <footer class="footer">
+          <h3 class="cart-total">Total:$450.96</h3>
+          <button class="check-btn">CHECKOUT</button>
+        </footer>
+      </aside>
+    </div>
+    <script type="module" src="product.js"></script>
+  </body>
+</html>
